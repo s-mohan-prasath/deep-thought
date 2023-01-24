@@ -1,0 +1,79 @@
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.parent {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/*STYLING*/
+
+.inputDiv {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  background-color: gray;
+  gap: 10px;
+  justify-content: center;
+  border-radius: 10px;
+}
+input {
+  width: 100%;
+  border: 1px solid rgb(98, 96, 96);
+  outline: none;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+button {
+  color: white;
+  background-color: red;
+  font-size: 0.9rem;
+  padding: 10px;
+  white-space: nowrap;
+  border: none;
+  border-radius: 10px;
+}
+.btn-deleteAll{
+    width: 100%;
+}
+button:hover {
+  background-color: rgb(194, 8, 8);
+}
+
+.taskDiv {
+  width: 100%;
+  height: fit-content;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.taskbody{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 5px;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 15px;
+}
